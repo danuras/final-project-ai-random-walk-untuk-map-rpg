@@ -1,0 +1,147 @@
+name: final_project_ai
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  bonfire: ^2.4.1
+  sqflite: ^2.0.2
+  drag_and_drop_lists: ^0.3.2+2
+  drag_and_drop_gridview: ^1.0.8
+  flutter_draggable_gridview: ^0.0.4
+  provider: ^6.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^1.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/images/ui/character_page.png
+    - assets/images/ui/clicked_button.png
+    - assets/images/ui/clicked_button2.png
+    - assets/images/ui/button3.png
+    - assets/images/ui/button2.png
+    - assets/images/ui/button.png
+    - assets/images/ui/bundaran.png
+    - assets/images/ui/kotak.png
+    - assets/images/ui/kotak2.png
+    - assets/images/ui/kotak3.png
+    - assets/images/ui/kotak4.png
+    - assets/images/ui/kotak7.png
+    - assets/images/ui/kotak8.png
+    - assets/images/ui/kotak9.png
+    - assets/images/ui/textBox.png
+    - assets/images/ui/bg_atas.png
+    - assets/images/ui/bg_tengah.png
+    - assets/images/ui/bg_bawah.png
+    - assets/images/ui/night_sky.jpg
+    - assets/images/ui/selected_character_background.png
+    - assets/images/ui/character_background.png
+    - assets/images/ui/worldBox.png
+    - assets/images/ui/worldBoxSelected.png
+    - assets/images/equipment/
+    - assets/images/equipment/staff/
+    - assets/images/decoration/
+    - assets/images/decoration/dark_land/crystal/
+    - assets/images/decoration/dark_land/tree/
+    - assets/images/decoration/dark_land/batu/
+    - assets/images/decoration/dark_land/rumput/
+    - assets/images/decoration/dark_castle/
+    - assets/images/decoration/green_place/
+    - assets/images/decoration/green_place/tree/
+    - assets/images/tiled/
+    - assets/images/tiled/tileset/
+    - assets/images/tile/
+    - assets/images/tile/dark_castle/lantai1/
+    - assets/images/tile/dark_castle/tembok1/
+    - assets/images/tile/dark_land/lantai/
+    - assets/images/tile/dark_land/tebing/
+    - assets/images/tile/green_place/land/
+    - assets/images/tile/green_place/tangga/
+    - assets/images/tile/green_place/tembok/
+    - assets/images/tile/dark_land/background/space_background.png
+    - assets/images/player/
+    - assets/images/item/
+    - assets/images/item/potion/
+    - assets/images/player/emote/
+    - assets/images/player/death/
+    - assets/images/player/attack/melee/
+    - assets/images/player/attack/range/
+    - assets/images/npc/
+    - assets/images/itens/
+    - assets/images/enemy/
+    - assets/icon/icons_back.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
